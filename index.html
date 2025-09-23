@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada de Carreiras em Tecnologia - UESPI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="" alt="Logotipo da Jornada de Carreiras" class="logo">
+        <h1>Jornada de Carreiras em Tecnologia</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#programacao">Programação</a></li>
+                <li><a href="#empresas">Empresas</a></li>
+                <li><a href="#inscricao">Inscrição</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Evento</h2>
+            <figure>
+                <img src="" alt="Imagem ilustrativa do evento" />
+                <figcaption>Momento da Jornada de Carreiras em Tecnologia</figcaption>
+            </figure>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae dignissimos odio eius dolor vero amet necessitatibus aliquam accusantium adipisci fugit? Minima quos beatae, dolor accusantium quas quam ipsum temporibus ducimus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus totam, consectetur illum consequuntur dolorem ratione! Veniam provident exercitationem animi similique! Mollitia quam sit labore explicabo molestiae accusantium sint aut qui!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ea quis illo, eos minima vel recusandae ipsum nostrum optio iste nulla beatae? Hic reprehenderit vitae libero impedit architecto numquam rerum!</p>
+
+        <section id="programacao">
+            <h2>Programação</h2>
+            <div class="palestras">
+                <div class="palestra">
+                    <h3>Desenvolvimento Web Moderno com Frameworks</h3>
+                    <p><strong>Palestrante:</strong> João Silva</p>
+                    <p><strong>Horário:</strong> 09:00 - 10:30</p>
+                </div>
+                <div class="palestra">
+                    <h3>Introdução à Segurança Cibernética</h3>
+                    <p><strong>Palestrante:</strong> Maria Oliveira</p>
+                    <p><strong>Horário:</strong> 11:00 - 12:30</p>
+                </div>
+                <div class="palestra">
+                    <h3>Gerenciamento de Projetos Ágeis com Scrum</h3>
+                    <p><strong>Palestrante:</strong> Carlos Pereira</p>
+                    <p><strong>Horário:</strong> 14:00 - 15:30</p>
+                </div>
+                 <div class="palestra">
+                    <h3>Inteligência Artificial e Machine Learning na Prática</h3>
+                    <p><strong>Palestrante:</strong> Ana Costa</p>
+                    <p><strong>Horário:</strong> 16:00 - 17:30</p>
+                </div>
+                <div class="palestra">
+                    <h3>Cloud Computing e DevOps</h3>
+                    <p><strong>Palestrante:</strong> Pedro Santos</p>
+                    <p><strong>Horário:</strong> 18:00 - 19:30</p>
+                </div>
+                <div class="palestra">
+                    <h3>Design de Experiência do Usuário (UX/UI)</h3>
+                    <p><strong>Palestrante:</strong> Sofia Mendes</p>
+                    <p><strong>Horário:</strong> 20:00 - 21:30</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="empresas">
+            <h2>Empresas Participantes</h2>
+            <div class="cards-empresas">
+                <div class="card">
+                    <img src="" alt="Logo da Empresa A">
+                    <h4>Empresa A</h4>
+                    <p>Área de atuação: Desenvolvimento</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="Logo da Empresa B">
+                    <h4>Empresa B</h4>
+                    <p>Área de atuação: Segurança</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="Logo da Empresa C">
+                    <h4>Empresa C</h4>
+                    <p>Área de atuação: IA</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="Logo da Empresa D">
+                    <h4>Empresa D</h4>
+                    <p>Área de atuação: Cloud</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="Logo da Empresa E">
+                    <h4>Empresa E</h4>
+                    <p>Área de atuação: UX/UI</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="Logo da Empresa F">
+                    <h4>Empresa F</h4>
+                    <p>Área de atuação: Segurança</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="inscricao">
+            <h2>Formulário de Inscrição</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="interesse">Principal interesse:</label>
+                <select id="interesse" name="interesse">
+                    <option value="desenvolvimento">Desenvolvimento</option>
+                    <option value="seguranca">Segurança</option>
+                    <option value="ia">Inteligência Artificial</option>
+                </select>
+
+                <fieldset>
+                    <legend>Turno disponível:</legend>
+                    <input type="radio" id="manha" name="turno" value="manha">
+                    <label for="manha">Manhã</label><br>
+                    <input type="radio" id="tarde" name="turno" value="tarde">
+                    <label for="tarde">Tarde</label><br>
+                </fieldset>
+
+                <label for="observaçôes">Observações:</label>
+                <textarea id="observaçôes" name="observaçôes" rows="4"></textarea>
+
+                <div class="botôes">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Informações institucionais e de contato da coordenação.</p>
+        <div class="links-uteis">
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+        </div>
+        <div class="redes-sociais">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>Nomes dos autores do projeto: Mayara Miranda Lima, Levi Ribeiro passos, Irapuam Junio.</p>
+    </footer>
+</body>
+</html>
